@@ -7,85 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HCI GROUP 10</title>
   <style>
- body {font-family: "Lato", sans-serif;}
+    .content {
+      border-bottom: 1px solid black;
+      display: flex;
+      justify-content: space-between;
+    }
+    #top_section {
+      
+    }
+    .search-container {
+      padding-top: 2.5%;
+    }
 
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
+    #title {
+      
+    }
 
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 50px;
-  text-align: center;
-}
-
-#Home {background-color:red;}
-#Wireframes {background-color:green;}
-#prototypes {background-color:blue;}
-#FinalDesign {background-color:orange;}
   </style>
 </head>
 
 <body>
+  <header>
+    <div class="content">
+        <p>HCI Final Project - Group 10 - "App Name"</p>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+    </div>
+    
+  </header>
   <main>
-    <div id="Home" class="tabcontent">
-      <h1>Home</h1>
-      <p>Home Page</p>
-    </div>
-    
-    <div id="Wireframes" class="tabcontent">
-      <h1>Wireframes</h1>
-      <p>Here are our wireframes and sketches.</p>
-    </div>
-    
-    <div id="prototypes" class="tabcontent">
-      <h1>Prototype Iterations</h1>
-      <p>Here are the different prototype iterations that we had</p>
-    </div>
-    
-    <div id="FinalDesign" class="tabcontent">
-      <h1>Final Design</h1>
-      <p>Here is our final design for the prototype.</p>
-    </div>
-    
-    <button class="tablink" onclick="openPage('Homes', this, 'red')" id="defaultOpen">Home</button>
-    <button class="tablink" onclick="openPage('Wireframes', this, 'green')">Wireframes</button>
-    <button class="tablink" onclick="openPage('Prototype Iterations', this, 'blue')">Prototype Iterations</button>
-    <button class="tablink" onclick="openPage('Final Design', this, 'orange')">Final Design</button>
+      <div id="top_section">
+          <p>Test</p>
+      </div>
   </main>
-
-  <script>
-    function openPage(pageName,elmnt,color) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-      }
-      document.getElementById(pageName).style.display = "block";
-      elmnt.style.backgroundColor = color;
-    
-    }
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-    </script>
 
 </body>
 
