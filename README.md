@@ -6,7 +6,7 @@
 |    :---:     |     :---:              |     :---:        |
 | Tyler Fulinara     | tfulinara@sfsu.edu | TylerFulinara      |
 | Leilah Lui       | llui1@mail.sfsu.edu       | leilahlui     |
-| Marie Shimizu          | ..     | marshmallow94    |
+| Marie Shimizu      | mshimizu4@sfsu.edu   | marshmallow94    |
 | William Chin    | wchin1@sfsu.edu       | williamchin999       |
 | Andre Lavilla     | ..        | alavilla01          |
 
