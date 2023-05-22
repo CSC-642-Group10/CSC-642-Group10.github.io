@@ -8,26 +8,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+        <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />
         <title>HCI GROUP 10</title>
-        <style>
-            ul {
-                list-style-type: none;
-                text-decoration: none;
-            }
-            .nav-link {
-                color: black;
-            }
-            a:link {
-                text-decoration: none;
-            }
-            a:hover {
-                color: lightgrey;
-            }
-            .sub {
-                font-size: small;
-            }
-        </style>
-
         
     </head>
     <body >
@@ -35,8 +18,8 @@
             <nav class="navbar navbar-expand-md">
                 <div class="container">
                     <a href="#" class="navbar-brand" style='font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;'>
-                        <img src="https://placehold.jp/e7f250/ffffff/150x150.png?text=logo" alt="logo" width="50" style="font:bold;">
-                        Human Computer Interaction Final Project
+                        <img src="./PageContents/Assets/Logo/WAVES-Logo.svg" alt="logo" width="50" style="font:bold;">
+                        Human Computer Interaction Final Project: Waves
                     </a>
                     
                     <div style='display:flex;'> </div>
@@ -65,43 +48,76 @@
                 <nav class="sidebar py-2 mb-4">
                     <ul class="nav flex-column" id="nav_accordion">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Pitch </a>
+                            <a class="nav-link" href="index.html" style="font-weight: bold;font-size:larger;">Pitch</a>
                         </li>
                         <li class="nav-item has-submenu navbar-toggler" >
                             <a class="nav-link"  data-bs-toggle="collapse" data-bs-target="#menu_item1" aria-expanded="false"> Introduction  </a>
                             <ul class="submenu collapse show" id="menu_item1" data-bs-parent="#nav_accordion">
-                                <li><a class="nav-link sub" href="#">Problem Statement </a></li>
-                                <li><a class="nav-link sub" href="#">Objective </a></li>
+                                <li><a class="nav-link sub" href="PageContents/Introduction/ProblemStatement.html">Problem Statement </a></li>
+                                <li><a class="nav-link sub" href="PageContents/Introduction/Objective.html">Objective </a></li>
                             </ul>
                         </li>
                         <li class="nav-item has-submenu">
                             <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item2" aria-expanded="false"> Research  </a>
                             <ul class="submenu collapse show" id="menu_item2" data-bs-parent="#nav_accordion">
-                                <li><a class="nav-link sub" href="InterviewFindings.html">Interview Findings</a></li>
-                                <li><a class="nav-link sub" href="#">Usability Testing</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Research/ResearchMethod.html">Research Method</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Research/InterviewFindings.html">Interview Findings</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Research/UsabilityTesting.html">Usability Testing</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Research/UsabilityTestingResult.html">Usability Testing Result</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item has-submenu">
                             <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item3" aria-expanded="false"> Prototype  </a>
                             <ul class="submenu collapse show" id="menu_item3" data-bs-parent="#nav_accordion">
-                                <li><a class="nav-link sub" href="#">Initial Design</a></li>
-                                <li><a class="nav-link sub" href="#">Iterations</a></li>
-                                <li><a class="nav-link sub" href="#">Final Iteration</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Prototype/InitialDesign.html">Initial Design and Prototypes</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Prototype/Solution.html">Hi-Fi Prototype and Features</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Prototype/Iterations.html">Heuristics Evaluation & Iteration</a></li>
+                                <li><a class="nav-link sub" href="PageContents/Prototype/FinalIteration.html">Final Iteration</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Future Plans </a>
+                            <a class="nav-link" href="PageContents/Conclusion.html"> Conclusion </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> About the Team </a>
+                            <a class="nav-link" href="PageContents/AboutTheTeam.html"> About the Team </a>
                         </li>
                     </ul>
                 </nav>
                 </div>
-                <div class="col-md-auto">
-                    <p>Contents go here</p>
+                <div class="col-md">
+                    <div class="row">
+                        <h1 style="font-display: center;">Pitch Statement</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex align-items-stretch">
+                          <img src="./PageContents/Assets/Mockups/Mockup1.png" class="img-fluid" alt="Mockup1">
+                        </div>
+                        <div class="col d-flex align-items-stretch">
+                          <img src="./PageContents/Assets/Mockups/Mockup2.png" class="img-fluid" alt="Mockup2">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br></br>
+                    </div>
+                    <div class="row">
+                        <br>
+                        <p style= 'font-size: large;'  class="indent">   In today’s society, people have become more reliant on virtual applications to not only build new connections but as a means of interaction. As people become more reliant on these online applications, feelings of detachment and isolation can start to build, as virtual connections lack the emotional and expressive experience that face-to-face connections have. Waves is a mobile application that enables people to connect their passions and interests to form new connections and communities in a way that is easy and reminiscent of other applications that users are already used to. </p>
+                        <p style= 'font-size: large;' class="indent">    Within Waves, individuals will have the ability to find new passions and interests through our swiping feature that quickly and easily finds new communities and events to join. Our goal is to link these virtual interactions to face-to-face interactions to build a more emotional and expressive experience that isn’t normally prioritized in today’s society. Our team consists of five university students that have varying levels of mastery in the process of designing and maintaining a community-based social platform. Currently, we have built events and posts to fulfill this relationship between virtual and face-to-face connections and plan on possibly expanding toward unique ways of making each user a sense of identity to help form deeper connections. 
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex justify-content-end">
+                                <a href='./PageContents/Introduction/ProblemStatement.html' class="justify-content-md-end"><button type="button" class="btn btn-outline-info justify-content-md-end">Problem Statement ></button></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>   
     </body>
+    <footer class="py-3 my-4 border-top">
+        <p class="text-center text-muted">© 2023 Spring, SFSU CSC642/842</p>
+    </footer>
 </html>
