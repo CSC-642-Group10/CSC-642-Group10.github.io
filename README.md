@@ -1,4 +1,4 @@
-# (Insert App name here)
+# Waves
 
 # csc642 Repository
 
@@ -10,4 +10,3 @@
 | William Chin    | wchin1@sfsu.edu       | williamchin999       |
 | Andre Lavilla     | alavilla1@mail.sfsu.edu       | alavilla01          |
 
-#Table of Contents
