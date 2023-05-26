@@ -126,3 +126,9 @@ a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
+
+  .teammate-image {
+    width: flex; /* Adjust the width as per your requirement */
+    height: 300px; /* Adjust the height as per your requirement */
+    object-fit: cover;
+}
