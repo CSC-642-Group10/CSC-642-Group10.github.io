@@ -131,4 +131,5 @@ a:hover {
     width: flex; /* Adjust the width as per your requirement */
     height: 300px; /* Adjust the height as per your requirement */
     object-fit: cover;
+    color: #ccc;
 }
